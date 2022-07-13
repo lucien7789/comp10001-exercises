@@ -1,6 +1,6 @@
 # Data types
 
-### There are 3 main data types you should know about
+### There are 4 main data types you should know about
 
 **String, textual data, no numerical information**  
 ```python
