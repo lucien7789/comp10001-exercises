@@ -245,6 +245,18 @@ There is also a method for removing elements.
 myList.pop(indexOfElement)
 ```
 
+**Example**
+```python
+myList = []
+myList.append('one')
+print(myList) # ['one']
+
+myList.append('two')
+print(myList) # ['one', 'two']
+
+myList.pop(1) # Pop the element at index 1
+print(myList) # ['one']
+```
 **Methods will be covered later but they are essentially a special type of function binded to a type**
 
 They are called in the form
@@ -340,7 +352,7 @@ range(0, 10, 2) # equivalent to [0,2,4,6,8]
 range(10, 0, -1) # equivalent to [10,9,8,7,6,5,4,3,2,1]
 ```
 
-Since the range type is a sequence, we can iterate over it.
+Since the range type is a sequence, we can iterate over it. By **iterate**, we mean loop over something, repeat an action.
 ```python
 for i in range(10):
     print(i)
@@ -473,11 +485,6 @@ sum(1,2,3) # 6
 sum([]) # 0
 ```
 
-```python
-string.lower() # Returns a string with all the characters lowercase
-string.upper() # Returns a string with all the characters uppercase
-```
-
 **list()**
 ```python
 list(sequence) # Converts a sequence to a list
@@ -488,6 +495,11 @@ list(range(10)) # [0,1,2,3,4,5,6,7,8,9]
 list("hello world") # ['h','e','l','l','o',' ', 'w','o','r','l','d']
 ```
 **string.lower() string.upper()**
+```python
+string.lower() # Returns a string with all the characters lowercase
+string.upper() # Returns a string with all the characters uppercase
+```
+
 ```python
 "ABCDE".lower() # "abcde"
 mystring = "123Abc"
