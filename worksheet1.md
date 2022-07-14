@@ -567,7 +567,7 @@ Output: 1000
 ## **3.** Primary School Division
 Write a function that takes in a value and a divisor.
 
-The function should divide the value by the divisor with remainders.
+The function should divide the value whole by the divisor with remainders.
 
 Your function should print the result in the form of
 ```
